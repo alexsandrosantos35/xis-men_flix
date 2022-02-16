@@ -1,0 +1,67 @@
+:root {
+    --vermelho : #e50914;
+    --preto : #141414;
+}  
+
+/* reset */
+
+* {
+    padding :0;
+    margin : 0;
+    box-sizing: border-box;
+}
+
+body {
+    color : white;
+    background : var(--preto);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+
+/*container*/
+
+header .container {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: auto;
+}
+header .logo {
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
+    font-size:40px;
+}
+
+header nav a {
+    text-decoration : none;
+    color : #AAA;
+    margin-right : 10px;
+}
+
+header a:hover {
+    color: #fff;
+    cursor : pointer;
+}
+
+ .topo {
+    height: 450px;
+    background : linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/jim-lee-xmen.png');
+    background-size : cover;
+    height:400px;
+    background-size:cover;
+    margin-bottom : 60px;
+ 
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.container {
+    margin-left : 20px;
+}
+
