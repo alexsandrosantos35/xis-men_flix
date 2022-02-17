@@ -1,0 +1,15 @@
+@media screen and (max-width : 700px ) {
+    .topo h3 {
+        font-size : 30px;
+        margin-left : 30px;
+        margin-bottom : 40px;
+    }
+
+    .topo p {
+        
+            margin-left : 30px;
+            padding : 0 50px 30px 0;
+   
+}
+
+}

@@ -47,11 +47,9 @@ header a:hover {
 }
 
  .topo {
-    height: 450px;
-    background : linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/jim-lee-xmen.png');
+    background : linear-gradient(rgba(0,0,0, .700),rgba(0,0,0, .70)100%), url('../img/jim-lee-xmen.png');
     background-size : cover;
-    height:400px;
-    background-size:cover;
+    height:600px;
     margin-bottom : 60px;
  
 
@@ -64,4 +62,14 @@ header a:hover {
 .container {
     margin-left : 20px;
 }
+ .topo h3 {
+     font-size : 40px;
+     margin-left : 30px;
+     margin-bottom : 40px;
+ }
+
+ .topo p {
+     margin-left : 30px;
+     padding : 0 200px 30px 0;
+ }
 
